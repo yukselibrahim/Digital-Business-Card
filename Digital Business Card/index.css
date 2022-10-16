@@ -1,0 +1,90 @@
+body{
+    margin: 0; 
+    padding: 0; 
+    background: url(img/wer.webp) no-repeat;
+    background-size: cover ;
+}
+
+.box{
+    width: 450px;
+    background-color:darkcyan;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 50px;
+}
+
+.box img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.box img:hover{
+    transform: scale(0.9);
+}
+
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box h5{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1px;
+
+}
+
+.box2{
+    text-align: justify;
+}
+
+.box3{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.box li a{
+    font-size: 60px;
+    color: aliceblue;
+    transition: all ease-in-out 250ms;
+}
+
+.box li a:hover{
+    color:cadetblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
